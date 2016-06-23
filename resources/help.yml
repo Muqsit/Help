@@ -1,0 +1,28 @@
+---
+#Number of pages. If you have made up to page.6 but wrote pages: as 5, then the 6th page will display the vanilla /help 6 command.
+pages: 3
+
+#Page messages. Format is...
+#page.4:
+# - Help message on page 4
+# - Another help message on page 4
+# - ...
+page.1:
+ - §b§lHelpfulCraft §r§eHelp §a(1/3)
+ - §d/spawn - §fTeleport to the server's spawn.
+ - §d/shop - §fTeleport to the shop.
+ - §d/wild - §fGo to the wilderness.
+ - §d/warp - §fList all warps/teleport to a warp.
+page.2:
+ - §b§lHelpfulCraft §r§eHelp §a(2/3)
+ - §d/home - §fTeleport to your home. §d(see /sethome).
+ - §d/tell - §fPrivate message a player. §d(/w, /msg).
+ - §d/daily - §fGet your daily items.
+ - §d/vote - §fVote for the server to earn amazing items.
+page.3:
+ - §b§lHelpfulCraft §r§eHelp §a(3/3)
+ - §d/pv - §fAccess private vault.
+ - §d/pv 2 - §fMultiple Private Vaults! (/pv 3,4...)
+ - §d/mcstats - §fCheck a your own or a player's mmo.
+ - §d/mctop - §fCheck who rules the server!
+...
