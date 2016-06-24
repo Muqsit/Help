@@ -32,11 +32,9 @@ class Main extends PluginBase implements Listener{
             $event->setCancelled();
             }
          }elseif($command[1] < 1 or $command[1] > $protect){
-          $helpInitial = $this->helpcfg->get("page.1");
-               foreach($helpInitial as $helpInit){
-               $player->sendMessage($helpInit);
+          $pageNotFound = $this->helpcfg->get("not.found.message");
+               $player->sendMessage($pageNotFound);
                $event->setCancelled();
-           }
         }
      }
   }
