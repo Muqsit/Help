@@ -1,6 +1,7 @@
 ---
 #Number of pages. If you have made up to page.6 but wrote pages: as 5, then the 6th page will display the vanilla /help 6 command.
 pages: 3
+not.found.message: "§cPage not found."
 
 #Page messages. Format is...
 #page.4:
