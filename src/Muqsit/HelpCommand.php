@@ -6,7 +6,7 @@ use pocketmine\command\CommandSender;
 
 class HelpCommand extends Command {
 
-    public function __construct(Main $plugin){
+    public function __construct(Help $plugin){
         parent::__construct("help", "For noobs", null, ["?"]);
         $this->plugin = $plugin;
     }
