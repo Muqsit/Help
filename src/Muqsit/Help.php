@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\Server;
 
-class Main extends PluginBase {
+class Help extends PluginBase {
 
   public function onEnable(){
     if(!file_exists($this->getDataFolder() . "help.yml")) {
@@ -16,5 +16,6 @@ class Main extends PluginBase {
     $this->saveDefaultConfig();
     $this->getServer()->getCommandMap()->getCommand("help")->setLabel("help_not_anymore");
     $this->getServer()->getCommandMap()->getCommand("help")->unregister($this->getServer()->getCommandMap());
+    $this->help = new Config($this->getDataFolder() . "help.yml", Config::YAML);
   }
 }
